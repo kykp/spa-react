@@ -1,5 +1,9 @@
 import {Link} from "react-router-dom";
 
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.toLowerCase();
+  }
+
 function Meal (props) {
     const {strMeal, idMeal, strMealThumb} = props;
 
@@ -8,7 +12,7 @@ function Meal (props) {
     <div className="card-image">
     
         <img className="myCard-img" src={strMealThumb} alt={strMeal} />
-        <h4>{strMeal}</h4>
+        <h5>{capitalizeFirstLetter(strMeal)}...</h5>
     </div>
 <div>
 </div>

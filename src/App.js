@@ -6,7 +6,7 @@ import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { NotFound } from "./pages/NotFound";
 import { Category } from "./components/Category";
-
+import { Recipe } from "./components/Recipe";
 import "./index.css";
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="/category/:name" element={<Category />} />
+          <Route path="/meal/:str" element={<Recipe />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

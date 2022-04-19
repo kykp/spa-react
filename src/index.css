@@ -75,21 +75,6 @@ a:hover {
   gap: 5rem;
   row-gap: 2rem;
 }
-
-/* .myCard-span {
-    -ms-text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    -ms-line-clamp: 5;
-    -webkit-line-clamp: 5;
-    line-clamp: 5;
-    display: -webkit-box;
-    display: box;
-    word-wrap: break-word;
-    -webkit-box-orient: vertical;
-    box-orient: vertical;  
-} */
 .myCard-img {
   max-width: 100%;
   border-radius: 1rem;
@@ -116,4 +101,8 @@ a:hover {
   justify-content: space-between;
   border-bottom: 1px solid white;
   padding-bottom: 2rem;
+}
+
+.myCard-categoryWatch {
+  padding-top: 2rem;
 }
