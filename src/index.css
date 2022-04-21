@@ -33,6 +33,23 @@ code {
   margin: 0 auto;
 }
 
+@media (max-width: 320px) {
+  #root {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .header__h1{
+    text-align: center;
+  }
+  p {
+    margin: 0 5px;
+  }
+  .recipe-video {
+    display: block!important;
+  }
+}
+  
+
 .header {
   display: flex;
   justify-content: center;
