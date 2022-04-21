@@ -8,19 +8,15 @@ function Meal (props) {
     const {strMeal, idMeal, strMealThumb} = props;
 
     return <div className="myCard">
-        
-    <div className="card-image">
-    
-        <img className="myCard-img" src={strMealThumb} alt={strMeal} />
-        <h5>{capitalizeFirstLetter(strMeal)}...</h5>
-    </div>
-<div>
-</div>
-<div className="myCard-categoryWatch">
-<Link to={`/meal/${idMeal}`}> Watch recipe</Link>
-</div>
-</div>
-
+           <div className="card-image">
+           <Link to={`/meal/${idMeal}`}>
+               <img className="myCard-img" src={strMealThumb} alt={strMeal} />
+           </Link>
+           <Link to={`/meal/${idMeal}`}>
+               <h5>{capitalizeFirstLetter(strMeal)}...</h5>
+           </Link>
+           </div>
+           </div>
 }
 
 export {Meal}

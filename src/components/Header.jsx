@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom"
+import { NavLink, Link} from "react-router-dom"
 
 export function Header () {
-    return <><h1 className="header__h1">React Routing SPA</h1>
+    return <><Link to="/"><h1 className="header__h1">React Routing SPA</h1></Link>
     <div className="header"> 
     <ul className="nav">
     <NavLink to="/"><li>Main</li></NavLink>

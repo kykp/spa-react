@@ -2,11 +2,26 @@ body {
   margin: 0;
   background-color: #282830;
   color:white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+a { 
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+h4 {
+  font-size: 2rem;
+}
+h5 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+span {
+  font-size: 15px;
 }
 
 code {
@@ -74,6 +89,7 @@ a:hover {
   grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
   gap: 5rem;
   row-gap: 2rem;
+  margin-top: 2rem;
 }
 .myCard-img {
   max-width: 100%;
@@ -105,4 +121,85 @@ a:hover {
 
 .myCard-categoryWatch {
   padding-top: 2rem;
+}
+
+.goBack-recipe {
+  margin-top: 3rem;
+  border-radius: 2px;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  
+}
+.iframe {
+  max-width: 100%;
+}
+.recipe-iframe {
+  margin-top: 2rem;
+  width: 90vw;
+  max-width: 600px;
+  min-height: 350px;
+  border:none;
+}
+.recipe-table{
+  margin: 0 auto;
+  width: 25vw;
+  max-width: 600px;
+}
+
+td {
+  padding: 5px 5px;
+}
+
+.recipe-video{
+  display: flex;
+}
+.recipe-top {
+  border-bottom: 1px solid white;
+}
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.search-input {
+  color: white;
+  width: 50vw;
+  max-width: 300px;
+  padding: 5px 5px;
+  text-align: center;
+  border:none;
+  color: white;
+  border-bottom: 1px solid white;
+  background-color: #282830;
+} 
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.search-input:focus {
+  outline-width: 0;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+.btn { 
+  color: black;
+  padding: 5px 5px;
+   
+  border:none;
+  border-radius: 2px;
+}
+.btn:hover {
+  background-color: rgb(56, 184, 244);
 }
