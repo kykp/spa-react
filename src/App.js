@@ -11,7 +11,7 @@ import "./index.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/spa-react">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
