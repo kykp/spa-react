@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kykp.github.io/spa-react/static/css/main.ff04f9c7.css",
-    "main.js": "/kykp.github.io/spa-react/static/js/main.2135b59b.js",
-    "index.html": "/kykp.github.io/spa-react/index.html",
-    "main.ff04f9c7.css.map": "/kykp.github.io/spa-react/static/css/main.ff04f9c7.css.map",
-    "main.2135b59b.js.map": "/kykp.github.io/spa-react/static/js/main.2135b59b.js.map"
+    "main.css": "/spa-react/static/css/main.ff04f9c7.css",
+    "main.js": "/spa-react/static/js/main.2135b59b.js",
+    "index.html": "/spa-react/index.html",
+    "main.ff04f9c7.css.map": "/spa-react/static/css/main.ff04f9c7.css.map",
+    "main.2135b59b.js.map": "/spa-react/static/js/main.2135b59b.js.map"
   },
   "entrypoints": [
     "static/css/main.ff04f9c7.css",
